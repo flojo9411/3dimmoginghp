@@ -11,7 +11,6 @@ import { Footer3Component } from './components/layouts/footer3/footer3.component
 import { Footer4Component } from './components/layouts/footer4/footer4.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { ErrorComponent } from './components/pages/error/error.component';
-import { FaqComponent } from './components/pages/faq/faq.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { PricingComponent } from './components/pages/pricing/pricing.component';
 import { ServicesComponent } from './components/pages/services/services.component';
@@ -29,7 +28,6 @@ import { ServicedetailComponent } from './components/pages/servicedetail/service
     Footer4Component,
     ContactComponent,
     ErrorComponent,
-    FaqComponent,
     HomeComponent,
     PricingComponent,
     ServicesComponent,

@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/pages/home/home.component';
 import { ErrorComponent } from './components/pages/error/error.component';
-import { FaqComponent } from './components/pages/faq/faq.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { PricingComponent } from './components/pages/pricing/pricing.component';
 import { ServicesComponent } from './components/pages/services/services.component';
@@ -14,9 +13,6 @@ import { ServicedetailComponent } from './components/pages/servicedetail/service
 const routes: Routes = [
   {
     path:'',component:HomeComponent 
-  },
-  {
-    path:'faqs',component:FaqComponent
   },
   {
     path:'contact-us',component:ContactComponent
