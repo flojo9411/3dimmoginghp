@@ -15,7 +15,10 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { PricingComponent } from './components/pages/pricing/pricing.component';
 import { ServicesComponent } from './components/pages/services/services.component';
 import { ServicedetailComponent } from './components/pages/servicedetail/servicedetail.component';
-
+import { ImmobilienComponent } from './components/pages/Immoblien/immobilien.component';
+import { VermietungComponent } from './components/pages/Vermietung/vermietung.component';
+import { ArchitekturComponent } from './components/pages/Architektur/architektur.component';
+import { GastronomieComponent } from './components/pages/Gastronomie/gastronomie.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,10 @@ import { ServicedetailComponent } from './components/pages/servicedetail/service
     PricingComponent,
     ServicesComponent,
     ServicedetailComponent,
+    ImmobilienComponent,
+    VermietungComponent,
+    ArchitekturComponent,
+    GastronomieComponent,
 
   ],
   imports: [

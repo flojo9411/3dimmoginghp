@@ -1355,7 +1355,7 @@ PRELOADER
     display: flex;
     align-items: center;
     height: 900px;
-    background: linear-gradient(90deg, #206B9D 0%, #79A6C4 50%,#D2E1EB 100%); }
+    background: linear-gradient(90deg, #19557D 0%, #206B9D 50%, #4C88B0 100%); }
     @media (max-width: 767px) {
       .single-banner .banner-overlay {
         height: 700px; } }
