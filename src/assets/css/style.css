@@ -4155,8 +4155,8 @@ PRELOADER
     .services-plans-area .plans-item:hover p {
       color: #fff; }
     .services-plans-area .plans-item:hover a {
-      background: #003d95;
-      border-color: #003d95;
+      background: #1b212b;
+      border-color: #1b212b;
       color: #fff;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
