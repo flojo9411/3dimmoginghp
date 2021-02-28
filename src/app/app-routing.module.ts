@@ -11,6 +11,7 @@ import { VermietungComponent } from './components/pages/Vermietung/vermietung.co
 import { ArchitekturComponent } from './components/pages/Architektur/architektur.component';
 import { GastronomieComponent } from './components/pages/Gastronomie/gastronomie.component';
 import { ComingsoomComponent } from './components/pages/comingsoom/comingsoom.component';
+import { ImpressumComponent } from './components/pages/Impressum/impressum.component';
 
 
 
@@ -45,6 +46,9 @@ const routes: Routes = [
   },
   {
     path:'comingsoom',component:ComingsoomComponent
+  },
+  {
+    path:'impressum',component:ImpressumComponent
   },
   {
     path:'**',component:ErrorComponent
