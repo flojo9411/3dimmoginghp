@@ -10,6 +10,7 @@ import { ImmobilienComponent } from './components/pages/Immoblien/immobilien.com
 import { VermietungComponent } from './components/pages/Vermietung/vermietung.component';
 import { ArchitekturComponent } from './components/pages/Architektur/architektur.component';
 import { GastronomieComponent } from './components/pages/Gastronomie/gastronomie.component';
+import { ComingsoomComponent } from './components/pages/comingsoom/comingsoom.component';
 
 
 
@@ -41,6 +42,9 @@ const routes: Routes = [
   },
   {
     path:'gastronomie',component:GastronomieComponent
+  },
+  {
+    path:'comingsoom',component:ComingsoomComponent
   },
   {
     path:'**',component:ErrorComponent

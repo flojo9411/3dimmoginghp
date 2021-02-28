@@ -19,6 +19,7 @@ import { ImmobilienComponent } from './components/pages/Immoblien/immobilien.com
 import { VermietungComponent } from './components/pages/Vermietung/vermietung.component';
 import { ArchitekturComponent } from './components/pages/Architektur/architektur.component';
 import { GastronomieComponent } from './components/pages/Gastronomie/gastronomie.component';
+import { ComingsoomComponent } from './components/pages/comingsoom/comingsoom.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { GastronomieComponent } from './components/pages/Gastronomie/gastronomie
     VermietungComponent,
     ArchitekturComponent,
     GastronomieComponent,
+    ComingsoomComponent,
 
   ],
   imports: [
